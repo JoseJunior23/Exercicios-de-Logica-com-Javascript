@@ -1,0 +1,51 @@
+body{
+  text-align: center;
+  background: url("./imagens/perc.jpg")  no-repeat;
+}
+
+.discount-header{
+display: inline-block;
+ width: 900px;
+ height: 100px;
+ background-color: #ffffff;
+ margin-bottom: 10px;
+ padding: 10px;
+ color: #c46434;
+ font-family: 'Fira Sans', sans-serif;
+ filter: alpha(opacity =50);opacity: 0.8;
+}
+
+.discount-content{
+  display:inline-block;
+  width: 600px;
+  height: 300px;
+  border-radius: 10px;
+  background-color: rgb(7, 8, 8);
+  margin: 10px;
+  font-family: 'Arvo', serif;
+  filter: alpha(opacity =50);opacity: 0.9;
+}
+.discount-content div{
+ margin: 50px;
+ filter: opacity(1);
+ color:white;
+ 
+}
+
+div#newPrice{
+  width: 600px;
+  height: 200px;
+  display:inline-block;
+  background-color: black;
+  border-radius: 10px;
+  filter: alpha(opacity =50);opacity: 0.9;
+  color: white;
+}
+.footer{
+  background-color: #c46434;
+  padding: 2px;
+  border-radius: 5px;
+  color: white;
+  margin-top: 5px;
+}
+
