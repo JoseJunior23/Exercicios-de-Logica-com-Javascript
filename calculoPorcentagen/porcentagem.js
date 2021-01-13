@@ -15,12 +15,12 @@ function discount(price, discount, newPrice){
  return(newPrice)
 }  
 
-// //limpar os dados
-//  elemPrice.value ='';
-//  elemDiscount.value= '';
-//  elemNewPrice.value='';
+//limpar os dados
+ elemPrice.value ='';
+ elemDiscount.value= '';
+ elemNewPrice.value='';
 
-//  elemPrice.focus();
+ elemPrice.focus();
 
 
  elemCalculate.addEventListener('click', discount);
