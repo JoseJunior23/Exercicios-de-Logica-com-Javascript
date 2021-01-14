@@ -62,7 +62,8 @@ function preview(){
   let parag,traco
 
   for(let information of employees){
-    info = 'Nome: ' + information.name_employee + '<br>';
+    info = 'Dados Pessoais: ' + '<br>';
+    info += 'Nome: ' + information.name_employee + '<br>';
     info += 'Email: ' + information.email_employee + '<br>';
     info += 'Phone: ' + information.phone_employee + '<br>';
     info += 'Data nascimento: ' + information.age_employee + '<br>';
@@ -77,6 +78,11 @@ function preview(){
   parag.innerHTML = info;
   // Acrescentando o parágrafo à div 
   elemPreview.appendChild(parag)
+
+    // Traço separador
+    traco = document.createElement('hr');
+    elemPreview.appendChild(traco); 
+
 }
 
 elemBtn.addEventListener('click', preview)
