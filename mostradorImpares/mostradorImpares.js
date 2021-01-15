@@ -10,7 +10,7 @@ function oddNumbers() {
 
   let number1 = Number(elemNumber1.value);
   let number2 = Number(elemNumber2.value);
-  let i; 
+ 
   if (number1 >= 0 && number1 < number2) {
     for (let i = number1 + 1; i <= number2 - 1; i++) {
       if (i % 2 != 0) {
@@ -29,7 +29,7 @@ function preview() {
   elemPreview.innerText = '';
 
   let info = '';
-  let parag
+  let parag;
 
 
   info = 'Os numeros impares entre: ' + elemNumber1.value + ' e ' + elemNumber2.value + '<br>';
@@ -40,6 +40,7 @@ function preview() {
   parag.innerHTML = info;
 
   elemPreview.appendChild(parag);
+ 
 
 }
 
