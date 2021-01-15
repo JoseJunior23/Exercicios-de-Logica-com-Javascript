@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <header class="nav-header">
+    <h1>Mostrador de numeros impares:</h1>
+    <h3>
+      <p>Os campos abaixo indicam : No primeiro de cima para baixo,<br> de onde iniciar, e outro onde deve terminar: </p>
+      <p>Exemplo: mostrar os numeros impares de 1 a 10</p>
+    </h3>
+  </header>
+  <div class="oddNumbers">
+    <div>
+      <label for="">De onde começar: </label>
+      <input type="number" name="number1" id="number1">
+      <label for="">Onde Parar: </label>
+      <input type="number" name="number2" id="number2">
+    </div>
+    <div>
+      <button id="btn">Gerar numeros impares</button>
+    </div>
+    <div class="preview" id="preview"></div>
+  </div>
+  <script src="./mostradorImpares.js"></script>
+</body>
+</html>
